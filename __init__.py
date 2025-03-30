@@ -1,3 +1,8 @@
+bl_info = {
+    "name": "Path generation",
+    "blender": (2, 80, 0)
+}
+
 import bpy
 import bpy_extras
 from mathutils import Vector
@@ -521,5 +526,3 @@ def unregister():
 
 if __name__ == "__main__":
     register()
-message.txt
-21 KB
